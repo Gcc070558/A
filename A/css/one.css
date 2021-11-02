@@ -1,0 +1,78 @@
+body{
+	overflow-x: hidden;
+}
+ul li{
+	list-style: none;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+img{
+	width: 100%;
+}
+.wrapper{
+	padding-top: 50px;
+}
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+/*导航*/
+nav.container-fluid{
+	max-width: 960px;
+	margin: 0 auto;
+}
+.dropdown.dropdown-menu li a{
+	height: 38px;
+	line-height: 38px;
+	border-bottom: 1px solid #CCC;
+}
+.dropdown-menu{
+	padding: 0;
+}
+/*logo*/
+.logo{
+	padding: 0;
+}
+.logo-box{
+	width: 140px;
+	background: -webkit-linear-gradient(left,#1c1a4c,#3177b9);
+}
+.logo span{
+	display: block;
+	color: #fff;
+}
+.logo1{
+	background: #fff;
+	padding: 25px 10px;
+	border-bottom-right-radius:40px ;
+}
+.logo2{
+	height: 50px;
+	background: -webkit-linear-gradient(left,#1c368c,#3177b9);
+	line-height: 50px;
+	padding-left: 10px;
+	overflow: hidden;
+}
+.logo3{
+	height: 50px;
+	background: -webkit-linear-gradient(left,#1c1a4c,#3177b9);
+	line-height: 50px;
+	padding-left: 10px;
+	
+}
+/*移动端LOGO*/
+.logo-m{
+	width: 100px;
+	margin: 15px 0 0 10px;
+}
+.dropdown.dropdown-menu li a{
+	height: 38px;
+	line-height: 38px;
+	border-bottom: 1px solid #CCC;
+}
